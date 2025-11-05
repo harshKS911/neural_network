@@ -1,0 +1,14 @@
+ml_project/
+│
+├── main.py                # entry point with argument parser
+├── config.yaml            # hyperparameters or file paths
+├── models/
+│   └── simple_nn.py       # your NN architecture
+├── utils/
+│   ├── logger.py          # logging setup
+│   └── helpers.py         # small DSA-like utilities (like batching, etc.)
+├── train.py               # training loop and evaluation
+├── data/
+│   └── dataset_loader.py  # dataset handling
+└── saved_models/
+    └── model.pth

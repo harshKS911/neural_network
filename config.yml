@@ -1,0 +1,12 @@
+model:       
+    input: 6
+    hidden: [10,20,10]
+    output: 1
+
+train:
+    lr: 0.004
+    epochs: 20
+    batch_size: 64
+
+path:
+    C:\Users\asus\OneDrive\Desktop\pirate_Ship\zself\save.pth
